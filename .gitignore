@@ -2,5 +2,5 @@
 *.screenshot
 /temp
 code/routines/system/
-.Java
+.metadata
 .JETEmitters
