@@ -115,7 +115,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMsgBox_1"/>
   </node>
-  <note opaque="false" posX="384" posY="96" sizeHeight="161" sizeWidth="321" text="Talend Bis&#xD;&#xA;Now From Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend 4666222&#xD;&#xA;This is another updated from Talen Bis ffffff">
+  <note opaque="false" posX="384" posY="96" sizeHeight="161" sizeWidth="321" text="Talend Bis ddzd&#xD;&#xA;Now From Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend 4666222&#xD;&#xA;This is another updated from Talen Bis ffffff">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="228;179;229"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="155;199;204"/>
