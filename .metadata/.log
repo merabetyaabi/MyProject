@@ -5469,3 +5469,515 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 !ENTRY org.talend.platform.logging 1 0 2019-03-21 23:40:47.133
 !MESSAGE 2019-03-21 23:40:47,132 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
 
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:36:27.913
+!MESSAGE 2019-03-21 23:36:27,911 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:36:39.316
+!MESSAGE 2019-03-21 23:36:39,315 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.eclipse.debug.core 4 2 2019-03-21 23:36:46.967
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+	at java.util.ArrayList$Itr.next(Unknown Source)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.fireLaunchHistoryChanged(LaunchConfigurationManager.java:395)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.fireLaunchHistoryChanged(LaunchHistory.java:145)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.removeFavorite(LaunchHistory.java:417)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.checkFavorites(LaunchHistory.java:398)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.addHistory(LaunchHistory.java:118)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.launchAdded(LaunchHistory.java:92)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:451)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:438)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1044)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:708)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:834)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 120 2019-03-21 23:36:46.970
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+	at java.util.ArrayList$Itr.next(Unknown Source)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.fireLaunchHistoryChanged(LaunchConfigurationManager.java:395)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.fireLaunchHistoryChanged(LaunchHistory.java:145)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.removeFavorite(LaunchHistory.java:417)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.checkFavorites(LaunchHistory.java:398)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.addHistory(LaunchHistory.java:118)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.launchAdded(LaunchHistory.java:92)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:451)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:438)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1044)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:708)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:834)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 4 0 2019-03-21 23:36:47.786
+!MESSAGE 2019-03-21 23:36:47,785 ERROR org.talend.commons.exception.CommonExceptionHandler  - !!!Processor.tempFailed!!!
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: !!!Processor.tempFailed!!!
+	at org.talend.designer.core.runprocess.Processor.updateContextCode(Processor.java:651)
+	at org.talend.designer.runprocess.java.JavaProcessor.generateContextCode(JavaProcessor.java:1569)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateContextInfo(ProcessorUtilities.java:668)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:502)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1349)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:561)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1190)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:524)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1450)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:691)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/.Java/src/main/resources/talend_projet/toto_0_1/contexts' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.create(File.java:115)
+	at org.eclipse.core.internal.resources.File.create(File.java:188)
+	at org.talend.designer.core.runprocess.Processor.updateContextCode(Processor.java:645)
+	... 40 more
+
+!ENTRY org.talend.platform.logging 4 0 2019-03-21 23:36:47.833
+!MESSAGE 2019-03-21 23:36:47,832 ERROR org.talend.commons.exception.CommonExceptionHandler  - Echec de la génération des fichiers temporaires
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Echec de la génération des fichiers temporaires
+	at org.talend.designer.runprocess.java.JavaProcessor.generateCode(JavaProcessor.java:723)
+	at org.talend.designer.runprocess.maven.MavenJavaProcessor.generateCode(MavenJavaProcessor.java:68)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateContextInfo(ProcessorUtilities.java:677)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:502)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1349)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:561)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1190)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:524)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1450)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:691)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/.Java/src/main/java/talend_projet' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:33)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:125)
+	at org.talend.designer.runprocess.java.JavaProcessor.generateCode(JavaProcessor.java:689)
+	... 40 more
+
+!ENTRY org.talend.platform.logging 4 0 2019-03-21 23:36:55.755
+!MESSAGE 2019-03-21 23:36:55,754 ERROR org.talend.commons.exception.CommonExceptionHandler  - !!!Processor.tempFailed!!!
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: !!!Processor.tempFailed!!!
+	at org.talend.designer.core.runprocess.Processor.updateContextCode(Processor.java:651)
+	at org.talend.designer.runprocess.java.JavaProcessor.generateContextCode(JavaProcessor.java:1569)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateContextInfo(ProcessorUtilities.java:668)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:502)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1349)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:561)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1190)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:524)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1450)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:691)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/.Java/src/main/resources/talend_projet/toto_0_1/contexts' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.create(File.java:115)
+	at org.eclipse.core.internal.resources.File.create(File.java:188)
+	at org.talend.designer.core.runprocess.Processor.updateContextCode(Processor.java:645)
+	... 40 more
+
+!ENTRY org.talend.platform.logging 4 0 2019-03-21 23:36:55.783
+!MESSAGE 2019-03-21 23:36:55,782 ERROR org.talend.commons.exception.CommonExceptionHandler  - Echec de la génération des fichiers temporaires
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Echec de la génération des fichiers temporaires
+	at org.talend.designer.runprocess.java.JavaProcessor.generateCode(JavaProcessor.java:723)
+	at org.talend.designer.runprocess.maven.MavenJavaProcessor.generateCode(MavenJavaProcessor.java:68)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateContextInfo(ProcessorUtilities.java:677)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:502)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1349)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:561)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1190)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:524)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1450)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:691)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/.Java/src/main/java/talend_projet' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:33)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:125)
+	at org.talend.designer.runprocess.java.JavaProcessor.generateCode(JavaProcessor.java:689)
+	... 40 more
+
+!ENTRY org.eclipse.jface 4 0 2019-03-21 23:37:01.994
+!MESSAGE Unhandled event loop exception during blocked modal context.
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:175)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:390)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:516)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:349)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3111)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1167)
+	at org.eclipse.ui.internal.Workbench.access$21(Workbench.java:1079)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1410)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1407)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1380)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1556)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$15(WorkbenchWindow.java:1527)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1592)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1589)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1603)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:521)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$11.shellClosed(WBWRenderer.java:564)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:308)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1696)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4612)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:348)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3278)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:164)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalCollectExpandedItems(AbstractTreeViewer.java:1598)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getExpandedElements(AbstractTreeViewer.java:1193)
+	at org.talend.repository.navigator.RepoViewCommonViewer.refreshNodeFromProperty(RepoViewCommonViewer.java:297)
+	at org.talend.repository.navigator.RepoViewCommonViewer.access$2(RepoViewCommonViewer.java:295)
+	at org.talend.repository.navigator.RepoViewCommonViewer$3.run(RepoViewCommonViewer.java:289)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 76 more
+!SESSION 2019-03-21 23:37:19.589 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2019-03-21 23:37:20.573
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [327]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2019-03-21 23:37:20.577
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [329]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-03-21 23:37:23.876
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'platform:/resource/org.talend.model/model/TalendFile.xsd'
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:25.411
+!MESSAGE 2019-03-21 23:37:25,409 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:27.473
+!MESSAGE 2019-03-21 23:37:27,472 INFO  org.talend.components.api.service.context.osgi.GlobalContextOsgi  - Activated i18n messages (org.talend.components.api.service.i18n.osgi.I18nMessageProviderOsgi@370a5214).
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:27.486
+!MESSAGE 2019-03-21 23:37:27,485 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#wizards#salesforce.edit(org.talend.components.salesforce.SalesforceConnectionEditWizardDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:27.487
+!MESSAGE 2019-03-21 23:37:27,487 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#wizards#salesforce(org.talend.components.salesforce.SalesforceConnectionWizardDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:27.489
+!MESSAGE 2019-03-21 23:37:27,488 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#wizards#salesforce.module(org.talend.components.salesforce.SalesforceModuleWizardDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:30.220
+!MESSAGE 2019-03-21 23:37:30,220 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à talend_projet
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:31.546
+!MESSAGE 2019-03-21 23:37:31,546 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:35.496
+!MESSAGE 2019-03-21 23:37:35,496 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:37:39.165
+!MESSAGE System property http.proxyHost is not set but should be 172.21.1.10.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:37:39.166
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:37:39.169
+!MESSAGE System property https.proxyHost is not set but should be 172.21.1.10.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:37:39.170
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:37:39.177
+!MESSAGE System property https.proxyHost is not set but should be 172.21.1.10.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:37:39.181
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.789
+!MESSAGE 2019-03-21 23:37:42,788 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tJIRAInput(org.talend.components.jira.tjirainput.TJiraInputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.791
+!MESSAGE 2019-03-21 23:37:42,791 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tJIRAOutput(org.talend.components.jira.tjiraoutput.TJiraOutputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.793
+!MESSAGE 2019-03-21 23:37:42,793 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceBulkExec(org.talend.components.salesforce.tsalesforcebulkexec.TSalesforceBulkExecDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.794
+!MESSAGE 2019-03-21 23:37:42,794 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceConnection(org.talend.components.salesforce.tsalesforceconnection.TSalesforceConnectionDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.796
+!MESSAGE 2019-03-21 23:37:42,795 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceGetDeleted(org.talend.components.salesforce.tsalesforcegetdeleted.TSalesforceGetDeletedDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.797
+!MESSAGE 2019-03-21 23:37:42,797 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceGetServerTimestamp(org.talend.components.salesforce.tsalesforcegetservertimestamp.TSalesforceGetServerTimestampDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.798
+!MESSAGE 2019-03-21 23:37:42,798 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceGetUpdated(org.talend.components.salesforce.tsalesforcegetupdated.TSalesforceGetUpdatedDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.799
+!MESSAGE 2019-03-21 23:37:42,799 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceInput(org.talend.components.salesforce.tsalesforceinput.TSalesforceInputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.801
+!MESSAGE 2019-03-21 23:37:42,801 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceOutput(org.talend.components.salesforce.tsalesforceoutput.TSalesforceOutputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.802
+!MESSAGE 2019-03-21 23:37:42,802 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceOutputBulk(org.talend.components.salesforce.tsalesforceoutputbulk.TSalesforceOutputBulkDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.804
+!MESSAGE 2019-03-21 23:37:42,803 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceOutputBulkExec(org.talend.components.salesforce.tsalesforceoutputbulkexec.TSalesforceOutputBulkExecDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:37:42.809
+!MESSAGE 2019-03-21 23:37:42,809 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSplunkEventCollector(org.talend.components.splunk.TSplunkEventCollectorDefinition)
+
+
+!ENTRY org.eclipse.ui 2 2 2019-03-21 23:37:45.083
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
