@@ -3942,3 +3942,19 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 !ENTRY org.talend.platform.logging 1 0 2019-03-21 23:45:37.034
 !MESSAGE 2019-03-21 23:45:37,033 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_201/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/target/classes;.;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/dom4j-1.6.1.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/log4j-1.2.16.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib; talend_projet.copy_of_toto_0_1.Copy_of_toto --context=Default --stat_port=3830 %*
 
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:52:03.548
+!MESSAGE 2019-03-21 23:52:03,548 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:52:04.598
+!MESSAGE 2019-03-21 23:52:04,597 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:52:04.676
+!MESSAGE 2019-03-21 23:52:04,675 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:52:06.205
+!MESSAGE 2019-03-21 23:52:06,204 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_201/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/target/classes;.;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/dom4j-1.6.1.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/log4j-1.2.16.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib; talend_projet.copy_of_toto_0_1.Copy_of_toto --context=Default --stat_port=3419 %*
+
