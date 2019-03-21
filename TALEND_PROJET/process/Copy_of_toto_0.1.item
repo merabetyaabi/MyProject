@@ -115,10 +115,10 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMsgBox_1"/>
   </node>
-  <note opaque="true" posX="384" posY="96" sizeHeight="161" sizeWidth="321" text="Talend Bis&#xD;&#xA;Now From Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend 45454545">
+  <note opaque="false" posX="384" posY="96" sizeHeight="161" sizeWidth="321" text="Talend Bis&#xD;&#xA;Now From Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend 4666222">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="228;179;229"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
-    <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="228;179;229"/>
+    <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="155;199;204"/>
   </note>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMsgBox_1" show="false"/>
