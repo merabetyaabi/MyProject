@@ -852,3 +852,137 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 !ENTRY org.talend.platform.logging 1 0 2019-03-21 16:15:42.977
 !MESSAGE 2019-03-21 16:15:42,977 INFO  org.talend.commons.exception.CommonExceptionHandler  - The download URL for maprfs-5.1.0-mapr.jar is not available
 
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 16:23:22.756
+!MESSAGE 2019-03-21 16:23:22,756 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 16:23:38.281
+!MESSAGE 2019-03-21 16:23:38,281 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.eclipse.debug.core 4 2 2019-03-21 16:23:39.604
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+	at java.util.ArrayList$Itr.next(Unknown Source)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.fireLaunchHistoryChanged(LaunchConfigurationManager.java:395)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.fireLaunchHistoryChanged(LaunchHistory.java:145)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.removeFavorite(LaunchHistory.java:417)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.checkFavorites(LaunchHistory.java:398)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.launchConfigurationAdded(LaunchHistory.java:350)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:223)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2135)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:382)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.talend.designer.core.debug.JobLaunchShortcut.createConfiguration(JobLaunchShortcut.java:254)
+	at org.talend.designer.core.debug.JobLaunchShortcut.findLaunchConfiguration(JobLaunchShortcut.java:223)
+	at org.talend.designer.core.debug.JobLaunchShortcut.launch(JobLaunchShortcut.java:158)
+	at org.talend.designer.core.debug.JobLaunchShortcut.launch(JobLaunchShortcut.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:420)
+	at org.talend.designer.core.debug.JobLaunchShortcutManager.run(JobLaunchShortcutManager.java:61)
+	at org.talend.designer.runprocess.ui.ProcessComposite.addInHistoryRunningList(ProcessComposite.java:1399)
+	at org.talend.designer.runprocess.ui.ProcessComposite.execButtonPressed(ProcessComposite.java:935)
+	at org.talend.designer.runprocess.ui.ProcessComposite.execRun(ProcessComposite.java:674)
+	at org.talend.designer.runprocess.ui.ProcessComposite$1.widgetSelected(ProcessComposite.java:395)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.debug.core 4 120 2019-03-21 16:23:39.605
+!MESSAGE An exception occurred during launch configuration change notification.
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+	at java.util.ArrayList$Itr.next(Unknown Source)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.fireLaunchHistoryChanged(LaunchConfigurationManager.java:395)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.fireLaunchHistoryChanged(LaunchHistory.java:145)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.removeFavorite(LaunchHistory.java:417)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.checkFavorites(LaunchHistory.java:398)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.launchConfigurationAdded(LaunchHistory.java:350)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:223)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2135)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:382)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.talend.designer.core.debug.JobLaunchShortcut.createConfiguration(JobLaunchShortcut.java:254)
+	at org.talend.designer.core.debug.JobLaunchShortcut.findLaunchConfiguration(JobLaunchShortcut.java:223)
+	at org.talend.designer.core.debug.JobLaunchShortcut.launch(JobLaunchShortcut.java:158)
+	at org.talend.designer.core.debug.JobLaunchShortcut.launch(JobLaunchShortcut.java:146)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:420)
+	at org.talend.designer.core.debug.JobLaunchShortcutManager.run(JobLaunchShortcutManager.java:61)
+	at org.talend.designer.runprocess.ui.ProcessComposite.addInHistoryRunningList(ProcessComposite.java:1399)
+	at org.talend.designer.runprocess.ui.ProcessComposite.execButtonPressed(ProcessComposite.java:935)
+	at org.talend.designer.runprocess.ui.ProcessComposite.execRun(ProcessComposite.java:674)
+	at org.talend.designer.runprocess.ui.ProcessComposite$1.widgetSelected(ProcessComposite.java:395)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 16:23:42.377
+!MESSAGE 2019-03-21 16:23:42,377 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 16:23:43.288
+!MESSAGE 2019-03-21 16:23:43,288 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 16:23:44.788
+!MESSAGE 2019-03-21 16:23:44,787 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_201/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/target/classes;.;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/dom4j-1.6.1.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/log4j-1.2.16.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib; talend_projet.toto_0_1.toto --context=Default --stat_port=3718 %*
+
