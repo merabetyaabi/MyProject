@@ -1169,3 +1169,7 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 !ENTRY org.talend.platform.logging 1 0 2019-03-21 17:21:17.276
 !MESSAGE 2019-03-21 17:21:17,276 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
 
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 17:26:56.144
+!MESSAGE 2019-03-21 17:26:56,144 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
