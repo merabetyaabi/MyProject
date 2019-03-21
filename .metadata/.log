@@ -4475,4 +4475,151 @@ Caused by: org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
 	... 76 more
+<<<<<<< HEAD
 >>>>>>> 7b1ffd86a930d76106cbc92a91a4274981abc94f
+=======
+!SESSION 2019-03-21 23:22:24.746 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2019-03-21 23:22:25.728
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [327]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2019-03-21 23:22:25.731
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [329]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-03-21 23:22:28.956
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'platform:/resource/org.talend.model/model/TalendFile.xsd'
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:30.388
+!MESSAGE 2019-03-21 23:22:30,386 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:32.080
+!MESSAGE 2019-03-21 23:22:32,080 INFO  org.talend.components.api.service.context.osgi.GlobalContextOsgi  - Activated i18n messages (org.talend.components.api.service.i18n.osgi.I18nMessageProviderOsgi@44c030d5).
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:32.093
+!MESSAGE 2019-03-21 23:22:32,093 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#wizards#salesforce.edit(org.talend.components.salesforce.SalesforceConnectionEditWizardDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:32.095
+!MESSAGE 2019-03-21 23:22:32,094 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#wizards#salesforce(org.talend.components.salesforce.SalesforceConnectionWizardDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:32.096
+!MESSAGE 2019-03-21 23:22:32,096 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#wizards#salesforce.module(org.talend.components.salesforce.SalesforceModuleWizardDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:34.841
+!MESSAGE 2019-03-21 23:22:34,840 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à talend_projet
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:34.874
+!MESSAGE 2019-03-21 23:22:34,873 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:36.155
+!MESSAGE 2019-03-21 23:22:36,154 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:39.816
+!MESSAGE 2019-03-21 23:22:39,815 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:22:42.722
+!MESSAGE System property http.proxyHost is not set but should be 172.21.1.10.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:22:42.723
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:22:42.725
+!MESSAGE System property https.proxyHost is not set but should be 172.21.1.10.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:22:42.726
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:22:42.731
+!MESSAGE System property https.proxyHost is not set but should be 172.21.1.10.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-21 23:22:42.732
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.835
+!MESSAGE 2019-03-21 23:22:45,835 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tJIRAInput(org.talend.components.jira.tjirainput.TJiraInputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.837
+!MESSAGE 2019-03-21 23:22:45,836 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tJIRAOutput(org.talend.components.jira.tjiraoutput.TJiraOutputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.839
+!MESSAGE 2019-03-21 23:22:45,838 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceBulkExec(org.talend.components.salesforce.tsalesforcebulkexec.TSalesforceBulkExecDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.840
+!MESSAGE 2019-03-21 23:22:45,840 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceConnection(org.talend.components.salesforce.tsalesforceconnection.TSalesforceConnectionDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.842
+!MESSAGE 2019-03-21 23:22:45,841 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceGetDeleted(org.talend.components.salesforce.tsalesforcegetdeleted.TSalesforceGetDeletedDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.843
+!MESSAGE 2019-03-21 23:22:45,843 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceGetServerTimestamp(org.talend.components.salesforce.tsalesforcegetservertimestamp.TSalesforceGetServerTimestampDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.844
+!MESSAGE 2019-03-21 23:22:45,844 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceGetUpdated(org.talend.components.salesforce.tsalesforcegetupdated.TSalesforceGetUpdatedDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.846
+!MESSAGE 2019-03-21 23:22:45,845 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceInput(org.talend.components.salesforce.tsalesforceinput.TSalesforceInputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.847
+!MESSAGE 2019-03-21 23:22:45,847 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceOutput(org.talend.components.salesforce.tsalesforceoutput.TSalesforceOutputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.848
+!MESSAGE 2019-03-21 23:22:45,848 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceOutputBulk(org.talend.components.salesforce.tsalesforceoutputbulk.TSalesforceOutputBulkDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.850
+!MESSAGE 2019-03-21 23:22:45,849 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceOutputBulkExec(org.talend.components.salesforce.tsalesforceoutputbulkexec.TSalesforceOutputBulkExecDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 23:22:45.854
+!MESSAGE 2019-03-21 23:22:45,854 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSplunkEventCollector(org.talend.components.splunk.TSplunkEventCollectorDefinition)
+
+
+!ENTRY org.eclipse.ui 2 2 2019-03-21 23:22:48.783
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
+>>>>>>> 0f1e4ab67d08ce97878df9ed379e58ae2137fea9
