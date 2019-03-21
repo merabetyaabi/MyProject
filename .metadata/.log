@@ -2602,3 +2602,85 @@ org.apache.lucene.store.AlreadyClosedException: this IndexReader is closed
 !ENTRY org.talend.platform.logging 1 0 2019-03-21 22:10:20.321
 !MESSAGE 2019-03-21 22:10:20,320 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_201/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/target/classes;.;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/dom4j-1.6.1.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/log4j-1.2.16.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib; talend_projet.toto_0_1.toto --context=Default --stat_port=4071 %*
 
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 22:04:05.526
+!MESSAGE 2019-03-21 22:04:05,526 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.eclipse.debug.core 4 2 2019-03-21 22:05:15.859
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+	at java.util.ArrayList$Itr.next(Unknown Source)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.fireLaunchHistoryChanged(LaunchConfigurationManager.java:395)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.fireLaunchHistoryChanged(LaunchHistory.java:145)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.removeFavorite(LaunchHistory.java:417)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.checkFavorites(LaunchHistory.java:398)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.addHistory(LaunchHistory.java:118)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.launchAdded(LaunchHistory.java:92)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:451)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:438)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1044)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:708)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:834)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 120 2019-03-21 22:05:15.862
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+	at java.util.ArrayList$Itr.next(Unknown Source)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.fireLaunchHistoryChanged(LaunchConfigurationManager.java:395)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.fireLaunchHistoryChanged(LaunchHistory.java:145)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.removeFavorite(LaunchHistory.java:417)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.checkFavorites(LaunchHistory.java:398)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.addHistory(LaunchHistory.java:118)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchHistory.launchAdded(LaunchHistory.java:92)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:451)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:438)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1044)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:708)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:834)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 22:05:18.018
+!MESSAGE 2019-03-21 22:05:18,017 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 22:05:19.027
+!MESSAGE 2019-03-21 22:05:19,026 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 22:05:20.664
+!MESSAGE 2019-03-21 22:05:20,664 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_201/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/target/classes;.;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/dom4j-1.6.1.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/log4j-1.2.16.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib; talend_projet.toto_0_1.toto --context=Default --stat_port=3838 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 22:23:41.772
+!MESSAGE 2019-03-21 22:23:41,772 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 22:23:51.975
+!MESSAGE 2019-03-21 22:23:51,974 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 22:23:52.247
+!MESSAGE 2019-03-21 22:23:52,247 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 22:23:52.817
+!MESSAGE 2019-03-21 22:23:52,817 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-21 22:23:54.441
+!MESSAGE 2019-03-21 22:23:54,440 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_201/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/target/classes;.;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/dom4j-1.6.1.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/log4j-1.2.16.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib; talend_projet.toto_0_1.toto --context=Default --stat_port=3691 %*
+
