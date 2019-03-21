@@ -10,7 +10,7 @@
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_IqeGAkvsEemmfu98LsFD-g" selectedElement="_IqeGA0vsEemmfu98LsFD-g" horizontal="true">
-      <children xsi:type="advanced:PerspectiveStack" xmi:id="_IqeGA0vsEemmfu98LsFD-g" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_M26RQEvsEemmfu98LsFD-g">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_IqeGA0vsEemmfu98LsFD-g" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_IuMIYEvsEemmfu98LsFD-g">
         <children xsi:type="advanced:Perspective" xmi:id="_IuMIYEvsEemmfu98LsFD-g" elementId="org.talend.rcp.perspective" selectedElement="_IuMIYUvsEemmfu98LsFD-g" label="Integration" iconURI="platform:/plugin/org.talend.core/icons/process_icon.png">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:opengroovyprojectwizard,"/>
           <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
@@ -27,7 +27,7 @@
           <tags>persp.actionSet:org.talend.repository.localprovider.actionSet</tags>
           <tags>persp.actionSet:org.talend.repository.demoprojcet.actionSet</tags>
           <tags>persp.actionSet:org.talend.repository.CreateactionSet</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_IuMIYUvsEemmfu98LsFD-g" selectedElement="_IuMIYkvsEemmfu98LsFD-g" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_IuMIYUvsEemmfu98LsFD-g" selectedElement="_IuMIaEvsEemmfu98LsFD-g" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_IuMIYkvsEemmfu98LsFD-g" containerData="3000" selectedElement="_IuMIY0vsEemmfu98LsFD-g">
               <children xsi:type="basic:PartStack" xmi:id="_IuMIY0vsEemmfu98LsFD-g" elementId="navigatorLayout" containerData="6000" selectedElement="_IuMIZEvsEemmfu98LsFD-g">
                 <tags>newtablook</tags>
@@ -39,7 +39,7 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_IuMIZ0vsEemmfu98LsFD-g" elementId="org.talend.designer.core.codeView" ref="_IuGo0EvsEemmfu98LsFD-g"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_IuMIaEvsEemmfu98LsFD-g" containerData="7000" selectedElement="_IuMIaUvsEemmfu98LsFD-g" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_IuMIaEvsEemmfu98LsFD-g" containerData="7000" selectedElement="_IuMIcEvsEemmfu98LsFD-g" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_IuMIaUvsEemmfu98LsFD-g" containerData="8000" selectedElement="_IuMIa0vsEemmfu98LsFD-g">
                 <children xsi:type="advanced:Placeholder" xmi:id="_IuMIakvsEemmfu98LsFD-g" elementId="org.eclipse.ui.editorss" containerData="6000" ref="_It8QwEvsEemmfu98LsFD-g"/>
                 <children xsi:type="basic:PartStack" xmi:id="_IuMIa0vsEemmfu98LsFD-g" elementId="bottomLayout" containerData="4000" selectedElement="_IuMIb0vsEemmfu98LsFD-g">
@@ -50,9 +50,12 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_IuMIb0vsEemmfu98LsFD-g" elementId="org.talend.designer.runprocess.ui.views.processview" ref="_IuIeAEvsEemmfu98LsFD-g"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_IuMIcEvsEemmfu98LsFD-g" elementId="paletteLayout" containerData="2000" selectedElement="_IuMIcUvsEemmfu98LsFD-g">
+              <children xsi:type="basic:PartStack" xmi:id="_IuMIcEvsEemmfu98LsFD-g" elementId="paletteLayout" containerData="2000" selectedElement="_AlIxQEwmEemcVLc-mXJxGA">
                 <tags>newtablook</tags>
+                <tags>org.eclipse.e4.secondaryDataStack</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_IuMIcUvsEemmfu98LsFD-g" elementId="org.eclipse.gef.ui.palette_view" ref="_IuHP4EvsEemmfu98LsFD-g"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_AlIxQEwmEemcVLc-mXJxGA" elementId="org.eclipse.ui.views.ProgressView" ref="_M2UbY0vsEemmfu98LsFD-g"/>
               </children>
             </children>
           </children>
@@ -113,7 +116,6 @@
             <children xsi:type="basic:PartStack" xmi:id="_M26RQkvsEemmfu98LsFD-g" elementId="left" containerData="2500" selectedElement="_M26RQ0vsEemmfu98LsFD-g">
               <tags>newtablook</tags>
               <tags>org.eclipse.e4.primaryNavigationStack</tags>
-              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_M26RQ0vsEemmfu98LsFD-g" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_M2SmMEvsEemmfu98LsFD-g"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_M26RREvsEemmfu98LsFD-g" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_M2TNQEvsEemmfu98LsFD-g"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_M26RRUvsEemmfu98LsFD-g" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_M2TNQUvsEemmfu98LsFD-g"/>
@@ -216,9 +218,9 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_I3tQwUvsEemmfu98LsFD-g" elementId="org.eclipse.gef.ui.palette_view"/>
+      <toolbar xmi:id="_I3tQwUvsEemmfu98LsFD-g" elementId="org.eclipse.gef.ui.palette_view" visible="false"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_IuHP4UvsEemmfu98LsFD-g" elementId="org.talend.designer.core.ui.views.jobsettings.JobSettingsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Job(toto 0.1)" iconURI="platform:/plugin/org.talend.common.ui.runtime/icons1/process_icon.png" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_IuHP4UvsEemmfu98LsFD-g" elementId="org.talend.designer.core.ui.views.jobsettings.JobSettingsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Job" iconURI="platform:/plugin/org.talend.common.ui.runtime/icons1/process_icon.png" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Talend</tags>
@@ -262,8 +264,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;&quot;>&#xD;&#xA;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;>&#xD;&#xA;&lt;xmlDefinedFilters>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/xmlDefinedFilters>&#xD;&#xA;&lt;/customFilters>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_M3YyYEvsEemmfu98LsFD-g" elementId="org.eclipse.jdt.ui.PackageExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -313,8 +313,16 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_M2UbY0vsEemmfu98LsFD-g" elementId="org.eclipse.ui.views.ProgressView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Progress" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/pview.png" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
+      <menus xmi:id="_AlRUIEwmEemcVLc-mXJxGA" elementId="org.eclipse.ui.views.ProgressView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_AlRUIUwmEemcVLc-mXJxGA" elementId="org.eclipse.ui.views.ProgressView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_M2UbZEvsEemmfu98LsFD-g" elementId="org.eclipse.ui.texteditor.TemplatesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Templates" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/templates.gif" closeable="true">
       <tags>View</tags>
