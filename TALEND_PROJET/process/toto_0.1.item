@@ -115,7 +115,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMsgBox_1"/>
   </node>
-  <note opaque="true" posX="384" posY="128" sizeHeight="129" sizeWidth="257" text="Talend Bis&#xD;&#xA;Now From Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend&#xD;&#xA;This is another updated from Talen Bis"/>
+  <note opaque="true" posX="384" posY="128" sizeHeight="161" sizeWidth="257" text="Talend Bis&#xD;&#xA;Now From Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend"/>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMsgBox_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
