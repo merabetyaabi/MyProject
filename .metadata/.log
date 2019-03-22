@@ -10318,3 +10318,269 @@ java.util.ConcurrentModificationException
 !ENTRY org.talend.platform.logging 1 0 2019-03-22 11:04:10.998
 !MESSAGE 2019-03-22 11:04:10,998 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_201/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/target/classes;.;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/dom4j-1.6.1.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib/log4j-1.2.16.jar;C:/TOS_V6.2_Bis/TOS_DI-Win32-20160704_1411-V6.2.1/workspace/.Java/lib; talend_projet.toto_0_1.toto --context=Default --stat_port=3617 %*
 
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:22:29.705
+!MESSAGE 2019-03-22 12:22:29,703 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-03-22 12:22:29.778
+!MESSAGE 2019-03-22 12:22:29,776 ERROR org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager  - Unable to add org/talend/master/talend_projet/code.Master/6.2.1/code.Master-6.2.1.pom
+
+!STACK 0
+java.io.FileNotFoundException: C:\TOS_V6.2\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\segments_1v (Le fichier spécifié est introuvable)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552)
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582)
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488)
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:482)
+	at org.apache.lucene.index.SegmentInfos$2.doBody(SegmentInfos.java:369)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:653)
+	at org.apache.lucene.index.SegmentInfos.readCurrentVersion(SegmentInfos.java:366)
+	at org.apache.lucene.index.DirectoryIndexReader.isCurrent(DirectoryIndexReader.java:237)
+	at org.apache.maven.index.context.DefaultIndexingContext.getIndexReader(DefaultIndexingContext.java:456)
+	at org.apache.maven.index.context.DefaultIndexingContext.getIndexSearcher(DefaultIndexingContext.java:475)
+	at org.apache.maven.index.context.IndexUtils.getGroups(IndexUtils.java:251)
+	at org.apache.maven.index.context.IndexUtils.getRootGroups(IndexUtils.java:220)
+	at org.apache.maven.index.context.DefaultIndexingContext.getRootGroups(DefaultIndexingContext.java:785)
+	at org.apache.maven.index.DefaultIndexerEngine.updateGroups(DefaultIndexerEngine.java:150)
+	at org.apache.maven.index.DefaultIndexerEngine.update(DefaultIndexerEngine.java:82)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:338)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:580)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.mavenProjectChanged(NexusIndexManager.java:758)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-03-22 12:22:44.442
+!MESSAGE An internal error occurred during: "Periodic workspace save.".
+!STACK 0
+java.lang.IllegalArgumentException: Cannot set lower sequence number for root (previous: 5, new: 3). Location: C:\TOS_V6.2\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1599)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1263)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2019-03-22 12:22:59.864 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2019-03-22 12:23:01.103
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [327]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2019-03-22 12:23:01.105
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [329]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-22 12:23:04.769
+!MESSAGE System property http.proxyHost is not set but should be 172.21.1.10.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-22 12:23:04.771
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-22 12:23:04.773
+!MESSAGE System property https.proxyHost is not set but should be 172.21.1.10.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-22 12:23:04.774
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-22 12:23:04.779
+!MESSAGE System property https.proxyHost is not set but should be 172.21.1.10.
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-22 12:23:04.781
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-03-22 12:23:05.033
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'platform:/resource/org.talend.model/model/TalendFile.xsd'
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:06.512
+!MESSAGE 2019-03-22 12:23:06,510 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:10.896
+!MESSAGE 2019-03-22 12:23:10,895 INFO  org.talend.components.api.service.context.osgi.GlobalContextOsgi  - Activated i18n messages (org.talend.components.api.service.i18n.osgi.I18nMessageProviderOsgi@46e653fd).
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:10.911
+!MESSAGE 2019-03-22 12:23:10,911 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#wizards#salesforce.edit(org.talend.components.salesforce.SalesforceConnectionEditWizardDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:10.913
+!MESSAGE 2019-03-22 12:23:10,912 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#wizards#salesforce(org.talend.components.salesforce.SalesforceConnectionWizardDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:10.914
+!MESSAGE 2019-03-22 12:23:10,914 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#wizards#salesforce.module(org.talend.components.salesforce.SalesforceModuleWizardDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:13.405
+!MESSAGE 2019-03-22 12:23:13,404 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à talend_projet
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:14.671
+!MESSAGE 2019-03-22 12:23:14,670 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:18.684
+!MESSAGE 2019-03-22 12:23:18,684 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.373
+!MESSAGE 2019-03-22 12:23:26,373 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tJIRAInput(org.talend.components.jira.tjirainput.TJiraInputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.375
+!MESSAGE 2019-03-22 12:23:26,375 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tJIRAOutput(org.talend.components.jira.tjiraoutput.TJiraOutputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.377
+!MESSAGE 2019-03-22 12:23:26,377 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceBulkExec(org.talend.components.salesforce.tsalesforcebulkexec.TSalesforceBulkExecDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.378
+!MESSAGE 2019-03-22 12:23:26,377 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceConnection(org.talend.components.salesforce.tsalesforceconnection.TSalesforceConnectionDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.379
+!MESSAGE 2019-03-22 12:23:26,379 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceGetDeleted(org.talend.components.salesforce.tsalesforcegetdeleted.TSalesforceGetDeletedDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.380
+!MESSAGE 2019-03-22 12:23:26,380 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceGetServerTimestamp(org.talend.components.salesforce.tsalesforcegetservertimestamp.TSalesforceGetServerTimestampDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.382
+!MESSAGE 2019-03-22 12:23:26,382 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceGetUpdated(org.talend.components.salesforce.tsalesforcegetupdated.TSalesforceGetUpdatedDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.384
+!MESSAGE 2019-03-22 12:23:26,384 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceInput(org.talend.components.salesforce.tsalesforceinput.TSalesforceInputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.386
+!MESSAGE 2019-03-22 12:23:26,385 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceOutput(org.talend.components.salesforce.tsalesforceoutput.TSalesforceOutputDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.387
+!MESSAGE 2019-03-22 12:23:26,387 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceOutputBulk(org.talend.components.salesforce.tsalesforceoutputbulk.TSalesforceOutputBulkDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.389
+!MESSAGE 2019-03-22 12:23:26,389 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSalesforceOutputBulkExec(org.talend.components.salesforce.tsalesforceoutputbulkexec.TSalesforceOutputBulkExecDefinition)
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:23:26.395
+!MESSAGE 2019-03-22 12:23:26,394 INFO  org.talend.components.api.service.internal.osgi.ComponentServiceOsgi  - Registered the component: components#tSplunkEventCollector(org.talend.components.splunk.TSplunkEventCollectorDefinition)
+
+
+!ENTRY org.eclipse.ui 2 2 2019-03-22 12:25:42.813
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
+
+!ENTRY org.talend.platform.logging 4 0 2019-03-22 12:26:01.018
+!MESSAGE 2019-03-22 12:26:01,017 ERROR org.talend.commons.exception.CommonExceptionHandler  - 
+
+!STACK 0
+java.lang.NullPointerException
+	at org.talend.core.model.process.ProcessUtils.isDistributionExist(ProcessUtils.java:959)
+	at org.talend.designer.runprocess.maven.MavenJavaProcessor.generatePom(MavenJavaProcessor.java:224)
+	at org.talend.designer.runprocess.maven.MavenJavaProcessor.generateCode(MavenJavaProcessor.java:71)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateContextInfo(ProcessorUtilities.java:677)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:867)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:711)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1369)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.codeSync(AbstractMultiPageTalendEditor.java:1401)
+	at org.talend.designer.core.ui.AbstractMultiPageTalendEditor.pageChange(AbstractMultiPageTalendEditor.java:705)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:294)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:782)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3110)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1794)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:283)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:26:02.138
+!MESSAGE 2019-03-22 12:26:02,135 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:26:02.628
+!MESSAGE 2019-03-22 12:26:02,627 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:26:03.846
+!MESSAGE 2019-03-22 12:26:03,845 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:26:03.847
+!MESSAGE 2019-03-22 12:26:03,846 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-03-22 12:26:05.033
+!MESSAGE 2019-03-22 12:26:05,033 INFO  org.eclipse.m2e.core.internal.lifecyclemapping.LifecycleMappingFactory  - Using NULL lifecycle mapping for MavenProject: org.talend.master.talend_projet:code.Master:6.2.1 @ C:\TOS_V6.2_Bis\TOS_DI-Win32-20160704_1411-V6.2.1\workspace\.Java\pom.xml.
+
