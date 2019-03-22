@@ -5,3 +5,5 @@ code/routines/system/
 .metadata
 .Java
 .JETEmitters
+.log
+.plugins
