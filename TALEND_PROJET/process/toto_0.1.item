@@ -111,12 +111,12 @@
     <elementParameter field="CLOSED_LIST" name="ICON" value="INFORMATION_MESSAGE"/>
     <elementParameter field="CHECK" name="ANSWER_MASK" value="false" show="false"/>
     <elementParameter field="MEMO" name="QUESTION_LABEL" value="&quot;Question ?&quot;" show="false"/>
-    <elementParameter field="MEMO" name="MESSAGE" value="&quot;Hello world! creation job from ws BIS 22/03/2019&quot;"/>
+    <elementParameter field="MEMO" name="MESSAGE" value="&quot;Hello world! creation job from ws again 22/03/2019&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMsgBox_1"/>
   </node>
-  <note opaque="true" posX="384" posY="96" sizeHeight="161" sizeWidth="321" text="Talend Bis&#xD;&#xA;Now From Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend 45454545&#xD;&#xA;This is another updated from Talend 22/03/2019&#xD;&#xA;This is another updated from Talend Bis 22/03/2019">
-    <elementParameter field="COLOR" name="NOTE_COLOR" value="228;179;229"/>
+  <note opaque="true" posX="352" posY="32" sizeHeight="225" sizeWidth="385" text="Talend Bis&#xD;&#xA;Now From Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend 45454545&#xD;&#xA;This is another updated from Talend 22/03/2019&#xD;&#xA;This is another updated from Talend Bis 22/03/2019&#xD;&#xA;This is another updated from Talend again 22/03/2019">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="152;168;191"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="228;179;229"/>
   </note>
