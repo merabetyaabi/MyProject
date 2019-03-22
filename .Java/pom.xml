@@ -10,6 +10,7 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>pom_routines.xml</module>
+    <module>pom_toto_0.1.xml</module>
   </modules>
   <properties>
     <encoding>UTF-8</encoding>
