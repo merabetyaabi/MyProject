@@ -116,7 +116,7 @@
     <metadata connector="FLOW" name="tMsgBox_1"/>
   </node>
   <note opaque="true" posX="352" posY="32" sizeHeight="225" sizeWidth="385" text="Talend Bis&#xD;&#xA;Now From Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend&#xD;&#xA;This is another updated from Talen Bis&#xD;&#xA;This is another updated from Talend 45454545&#xD;&#xA;This is another updated from Talend 22/03/2019&#xD;&#xA;This is another updated from Talend Bis 22/03/2019&#xD;&#xA;This is another updated from Talend again 22/03/2019&#xD;&#xA;This is another updated from Talend Bis 22/03/2019">
-    <elementParameter field="COLOR" name="NOTE_COLOR" value="255;0;0"/>
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="0;128;0"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="228;179;229"/>
   </note>
