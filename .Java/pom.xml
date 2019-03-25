@@ -10,6 +10,7 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>pom_routines.xml</module>
+    <module>pom_JOB_TEST_0.1.xml</module>
   </modules>
   <properties>
     <encoding>UTF-8</encoding>
@@ -23,6 +24,11 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>dom4j-1.6.1</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>jxl</artifactId>
       <version>6.0.0</version>
     </dependency>
   </dependencies>
