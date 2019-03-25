@@ -115,8 +115,8 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMsgBox_1"/>
   </node>
-  <note opaque="true" posX="320" posY="64" sizeHeight="129" sizeWidth="385" text="Job created in ws bis dev2&#xD;&#xA;">
-    <elementParameter field="COLOR" name="NOTE_COLOR" value="192;192;192"/>
+  <note opaque="true" posX="320" posY="64" sizeHeight="129" sizeWidth="385" text="Job created in ws bis dev2&#xD;&#xA;First update in ws from dev1">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="228;179;229"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="152;168;191"/>
