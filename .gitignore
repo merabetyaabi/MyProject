@@ -3,7 +3,7 @@
 /temp
 code/routines/system/
 .metadata
-.Java
+.Java/*
 .JETEmitters
 .log
 .plugins
