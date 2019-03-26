@@ -10,11 +10,22 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>pom_routines.xml</module>
+    <module>pom_BR_0.1.xml</module>
   </modules>
   <properties>
     <encoding>UTF-8</encoding>
   </properties>
   <dependencies>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>commons-collections-3.2.2</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>log4j-1.2.15</artifactId>
+      <version>6.0.0</version>
+    </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>log4j-1.2.16</artifactId>
@@ -23,6 +34,26 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>dom4j-1.6.1</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>jxl</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>trove</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>advancedPersistentLookupLib-1.0</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>jboss-serialization</artifactId>
       <version>6.0.0</version>
     </dependency>
   </dependencies>
