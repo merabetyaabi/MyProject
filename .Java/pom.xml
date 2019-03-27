@@ -2,30 +2,19 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.talend.master.talend_projet</groupId>
+  <groupId>org.talend.master.new_project</groupId>
   <artifactId>code.Master</artifactId>
   <version>6.2.1</version>
   <packaging>pom</packaging>
-  <name>TALEND_PROJET Codes Master</name>
+  <name>NEW_PROJECT Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
     <module>pom_routines.xml</module>
-    <module>pom_BR_0.1.xml</module>
   </modules>
   <properties>
     <encoding>UTF-8</encoding>
   </properties>
   <dependencies>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>commons-collections-3.2.2</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>log4j-1.2.15</artifactId>
-      <version>6.0.0</version>
-    </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>log4j-1.2.16</artifactId>
@@ -34,26 +23,6 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>dom4j-1.6.1</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jxl</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>trove</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>advancedPersistentLookupLib-1.0</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jboss-serialization</artifactId>
       <version>6.0.0</version>
     </dependency>
   </dependencies>

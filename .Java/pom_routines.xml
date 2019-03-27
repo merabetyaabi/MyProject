@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.talend.master.talend_projet</groupId>
+    <groupId>org.talend.master.new_project</groupId>
     <artifactId>code.Master</artifactId>
     <version>6.2.1</version>
     <relativePath>./pom.xml</relativePath>
   </parent>
-  <groupId>org.talend.code.talend_projet</groupId>
+  <groupId>org.talend.code.new_project</groupId>
   <artifactId>routines</artifactId>
   <version>6.2.1</version>
-  <name>TALEND_PROJET Routines</name>
+  <name>NEW_PROJECT Routines</name>
   <properties>
     <talend.codes.package>routines</talend.codes.package>
   </properties>
