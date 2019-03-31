@@ -119,6 +119,10 @@
     <elementParameter field="COLOR" name="NOTE_COLOR" value="228;179;229"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
+  <note opaque="true" posX="352" posY="160" sizeHeight="97" sizeWidth="257" text="TOS second modif">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="228;179;229"/>
+    <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
+  </note>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMsgBox_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
