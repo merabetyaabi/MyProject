@@ -106,7 +106,7 @@
   </parameters>
   <node componentName="tMsgBox" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMsgBox_1" show="false"/>
-    <elementParameter field="TEXT" name="TITLE" value="&quot;TOS second modif&quot;"/>
+    <elementParameter field="TEXT" name="TITLE" value="&quot;TOS second modiffff&quot;"/>
     <elementParameter field="CLOSED_LIST" name="BUTTONS" value="0"/>
     <elementParameter field="CLOSED_LIST" name="ICON" value="INFORMATION_MESSAGE"/>
     <elementParameter field="CHECK" name="ANSWER_MASK" value="false" show="false"/>
@@ -115,7 +115,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMsgBox_1"/>
   </node>
-  <note opaque="true" posX="224" posY="32" sizeHeight="97" sizeWidth="257" text="TOS">
+  <note opaque="true" posX="224" posY="32" sizeHeight="97" sizeWidth="257" text="TOS second modif">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="228;179;229"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
