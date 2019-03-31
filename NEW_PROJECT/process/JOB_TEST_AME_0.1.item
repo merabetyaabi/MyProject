@@ -116,6 +116,7 @@
     <metadata connector="FLOW" name="tMsgBox_1"/>
   </node>
   <note opaque="true" posX="192" posY="32" sizeHeight="97" sizeWidth="289" text="TOS BIS">
+    <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
   <subjob>
